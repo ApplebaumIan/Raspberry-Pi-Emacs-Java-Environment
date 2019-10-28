@@ -1,0 +1,18 @@
+;; Object dataStructures/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "dataStructures/"
+  :tables (list 
+    (semanticdb-table "cheatsheet2.txt"
+    :major-mode 'java-mode
+    :tags nil
+    :file "cheatsheet2.txt"
+    :pointmax 360
+    :fsize 359
+    :lastmodtime '(23237 34979 202855 656000)
+    :unmatched-syntax '((BRACE_BLOCK 75 . 358) (PAREN_BLOCK 31 . 74) (IDENTIFIER 15 . 31) (VOID 10 . 14))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

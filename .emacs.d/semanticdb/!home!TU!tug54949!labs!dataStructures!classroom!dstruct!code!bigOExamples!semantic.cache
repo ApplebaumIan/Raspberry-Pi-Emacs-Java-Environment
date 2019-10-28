@@ -1,0 +1,66 @@
+;; Object bigOExamples/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "bigOExamples/"
+  :tables (list 
+   (semanticdb-table "Examples.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("bigOExamples" package nil nil [1 22])
+            ("java.util.ArrayList" include nil nil [24 51])
+            ("java.util.HashSet" include nil nil [52 77])
+            ("java.util.LinkedList" include nil nil [78 106])
+            ("java.util.List" include nil nil [107 129])
+            ("java.util.Random" include nil nil [130 154])
+            ("java.util.Set" include nil nil [155 176])
+            ("Examples" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("createArrayListTest" function
+                       (:typemodifiers ("public" "static")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [204 479])
+                    ("howBig" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [516 520]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [483 549])
+                    ("areUnique" function
+                       (:arguments 
+                          ( ("" variable (:type "l") (reparse-symbol formal_parameters) [596 597]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [570 774])
+                    ("search" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [823 827])
+                            ("num" variable (:type "int") (reparse-symbol formal_parameters) [829 836]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [784 1023])
+                    ("sort" function
+                       (:arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [1086 1090]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1068 1374])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1402 1415]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1378 1860]))                  
+                :type "class")
+                nil [178 1863]))          
+    :file "Examples.java"
+    :pointmax 1864
+    :fsize 1863
+    :lastmodtime '(23181 39665 579849 459000)
+    :unmatched-syntax '((GT 1084 . 1085) (IDENTIFIER 1078 . 1082) (LT 1082 . 1083) (RSHIFT 1065 . 1067) (LT 1063 . 1064) (EXTENDS 1045 . 1052) (PUBLIC 1028 . 1034) (LT 1042 . 1043) (GT 821 . 822) (IDENTIFIER 809 . 813) (LT 813 . 814) (GT 594 . 595) (IDENTIFIER 588 . 592) (LT 592 . 593) (GT 568 . 569) (PUBLIC 552 . 558) (LT 566 . 567) (GT 514 . 515) (QUESTION 513 . 514) (IDENTIFIER 508 . 512) (LT 512 . 513) (GT 1084 . 1085) (IDENTIFIER 1078 . 1082) (LT 1082 . 1083) (RSHIFT 1065 . 1067) (LT 1063 . 1064) (EXTENDS 1045 . 1052) (PUBLIC 1028 . 1034) (LT 1042 . 1043) (GT 821 . 822) (IDENTIFIER 809 . 813) (LT 813 . 814) (GT 594 . 595) (IDENTIFIER 588 . 592) (LT 592 . 593) (GT 568 . 569) (PUBLIC 552 . 558) (LT 566 . 567) (GT 514 . 515) (QUESTION 513 . 514) (IDENTIFIER 508 . 512) (LT 512 . 513))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!classroom!dstruct!code!bigOExamples!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

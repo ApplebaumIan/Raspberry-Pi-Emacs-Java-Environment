@@ -1,0 +1,114 @@
+;; Object generics/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "generics/"
+  :tables (list 
+   (semanticdb-table "BoxExample.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("generics" package nil nil [1 18])
+            ("BoxExample" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [72 85]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48 202]))                  
+                :type "class")
+                nil [20 205]))          
+    :file "BoxExample.java"
+    :pointmax 206
+    :fsize 205
+    :lastmodtime '(23181 39665 591849 307000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Box.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("generics" package nil nil [1 18]))          
+    :file "Box.java"
+    :pointmax 182
+    :fsize 181
+    :lastmodtime '(23181 39665 588849 345000)
+    :unmatched-syntax '((BRACE_BLOCK 44 . 181) (GT 42 . 43) (IDENTIFIER 37 . 42) (PUBLIC 20 . 26) (LT 36 . 37) (BRACE_BLOCK 44 . 181) (GT 42 . 43) (IDENTIFIER 37 . 42) (PUBLIC 20 . 26) (LT 36 . 37))
+    )
+   (semanticdb-table "Check.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("generics" package nil nil [1 18])
+            ("Check" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [68 81]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [44 93]))                  
+                :type "class")
+                nil [20 96]))          
+    :file "Check.java"
+    :pointmax 97
+    :fsize 96
+    :lastmodtime '(23181 39665 592849 294000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Circle.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("generics" package nil nil [1 18])
+            ("Circle" type
+               (:typemodifiers ("public")
+                :type "class")
+                nil [20 52]))          
+    :file "Circle.java"
+    :pointmax 53
+    :fsize 52
+    :lastmodtime '(23181 39665 594849 269000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "GenericExample.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("generics" package nil nil [1 18])
+            ("java.util.ArrayList" include nil nil [20 47])
+            ("java.util.Arrays" include nil nil [48 72])
+            ("java.util.Random" include nil nil [73 97])
+            ("GenericExample" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("biggestIntInList" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [189 193]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [135 318])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [356 369]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [332 681]))                  
+                :type "class")
+                nil [99 684]))          
+    :file "GenericExample.java"
+    :pointmax 685
+    :fsize 684
+    :lastmodtime '(23181 39665 595849 256000)
+    :unmatched-syntax '((GT 187 . 188) (IDENTIFIER 170 . 179) (LT 179 . 180) (GT 187 . 188) (IDENTIFIER 170 . 179) (LT 179 . 180))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!classroom!dstruct!code!generics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

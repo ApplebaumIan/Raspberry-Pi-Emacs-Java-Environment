@@ -1,0 +1,30 @@
+;; Object mozilla_tug549490/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mozilla_tug549490/"
+  :tables (list 
+   (semanticdb-table "Heap.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("timedlab" package nil nil [1 18])
+            ("java.util.ArrayList" include nil nil [20 47]))          
+    :file "Heap.java"
+    :pointmax 2191
+    :fsize 2273
+    :lastmodtime '(23228 60379 423709 782000)
+    :unmatched-syntax '((BRACE_BLOCK 92 . 2190) (RSHIFT 89 . 91) (IDENTIFIER 88 . 89) (LT 87 . 88) (IDENTIFIER 77 . 87) (EXTENDS 69 . 76) (IDENTIFIER 67 . 68) (PUBLIC 49 . 55) (LT 66 . 67))
+    )
+   (semanticdb-table "BinaryTree.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("timedlab" package nil nil [1 18]))          
+    :file "BinaryTree.java"
+    :pointmax 6093
+    :fsize 6332
+    :lastmodtime '(23228 60359 622711 79000)
+    :unmatched-syntax '((BRACE_BLOCK 160 . 6092) (RSHIFT 157 . 159) (IDENTIFIER 156 . 157) (LT 155 . 156) (IDENTIFIER 145 . 155) (EXTENDS 137 . 144) (IDENTIFIER 135 . 136) (PUBLIC 111 . 117) (LT 134 . 135))
+    )
+   )
+  :file "!tmp!mozilla_tug549490!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

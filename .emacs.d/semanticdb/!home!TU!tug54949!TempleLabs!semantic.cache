@@ -1,0 +1,34 @@
+;; Object TempleLabs/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "TempleLabs/"
+  :tables (list 
+   (semanticdb-table "Guess.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.ArrayList" include nil nil [1 28])
+            ("java.util.Scanner" include nil nil [29 54])
+            ("Guess" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [106 119]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [82 457]))                  
+                :type "class")
+                nil [56 459]))          
+    :file "Guess.java"
+    :pointmax 460
+    :fsize 511
+    :lastmodtime '(23145 26032 885790 747000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!TempleLabs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

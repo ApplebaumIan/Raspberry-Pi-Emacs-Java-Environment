@@ -1,0 +1,19 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables (list 
+   (semanticdb-table "CircularLinkedList.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.util.Iterator" include nil nil [1 27]))          
+    :file "CircularLinkedList.java"
+    :pointmax 4050
+    :fsize 4049
+    :lastmodtime '(23175 27597 152869 509000)
+    :unmatched-syntax '((BRACE_BLOCK 85 . 4046) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4042) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4042) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4042) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4043) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4044) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4046) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4047) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60) (BRACE_BLOCK 85 . 4043) (GT 84 . 85) (IDENTIFIER 83 . 84) (LT 82 . 83) (IDENTIFIER 74 . 82) (IMPLEMENTS 63 . 73) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 28 . 34) (LT 59 . 60))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!labs!lab4!Eclipse!josephous!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

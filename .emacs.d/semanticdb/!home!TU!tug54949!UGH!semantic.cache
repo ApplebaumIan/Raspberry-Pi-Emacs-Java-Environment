@@ -1,0 +1,36 @@
+;; Object UGH/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "UGH/"
+  :tables (list 
+   (semanticdb-table "ay.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("ay" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("password" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [26 69])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [99 112]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [75 180]))                  
+                :type "class")
+                nil [4 182]))          
+    :file "ay.java"
+    :pointmax 185
+    :fsize 184
+    :lastmodtime '(23303 31607 99457 232000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!UGH!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

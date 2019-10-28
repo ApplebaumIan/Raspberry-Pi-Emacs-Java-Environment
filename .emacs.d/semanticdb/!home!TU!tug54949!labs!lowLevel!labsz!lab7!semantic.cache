@@ -1,0 +1,306 @@
+;; Object lab7/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lab7/"
+  :tables
+  (list
+    (semanticdb-table "manual.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("ctype.h" include (:system-flag t) nil [40 58])
+            ("stdlib.h" include (:system-flag t) nil [59 78])
+            ("time.h" include (:system-flag t) nil [79 96])
+            ("upperLower" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [170 179]))                  
+                :type "void")
+                nil [154 180])
+            ("convertStrToInt" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [203 212]))                  
+                :type "void")
+                nil [181 213])
+            ("convertStrToFloat" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [237 246])
+                    ("q" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [247 256])
+                    ("r" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [257 266])
+                    ("s" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [267 276]))                  
+                :type "void")
+                nil [214 277])
+            ("compareStr" function
+               (:prototype-flag t
+                :type "void")
+                nil [278 296])
+            ("comparePartialStr" function
+               (:prototype-flag t
+                :type "void")
+                nil [297 322])
+            ("randomize" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [338 348])
+                    ("q" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [349 359])
+                    ("r" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [360 370])
+                    ("s" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [371 381]))                  
+                :type "void")
+                nil [323 382])
+            ("tokenizeTelNum" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [403 412]))                  
+                :type "void")
+                nil [383 413])
+            ("reverse" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [427 436]))                  
+                :type "void")
+                nil [414 437])
+            ("countSubStr" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [455 464])
+                    ("q" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [465 474]))                  
+                :type "void")
+                nil [438 475])
+            ("countChar" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [491 500])
+                    ("s" variable (:type "char") (reparse-symbol arg-sub-list) [501 508]))                  
+                :type "void")
+                nil [476 509])
+            ("countAlpha" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [526 535]))                  
+                :type "void")
+                nil [510 536])
+            ("countWords" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [553 562]))                  
+                :type "void")
+                nil [537 563])
+            ("startsWithB" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [581 590]))                  
+                :type "void")
+                nil [564 591])
+            ("endsWithEd" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [608 617]))                  
+                :type "void")
+                nil [592 618])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [629 634]))                  
+                :type "int")
+                nil [620 1829])
+            ("upperLower" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1847 1856]))                  
+                :type "void")
+                nil [1831 2194])
+            ("convertStrToInt" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2217 2226]))                  
+                :type "void")
+                nil [2196 2519])
+            ("convertStrToFloat" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2544 2553])
+                    ("q" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2554 2563])
+                    ("r" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2564 2573])
+                    ("s" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2574 2583]))                  
+                :type "void")
+                nil [2521 2967])
+            ("compareStr" function (:type "void") nil [2969 3575])
+            ("comparePartialStr" function (:type "void") nil [3577 4401])
+            ("randomize" function
+               (:arguments 
+                  ( ("noun" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4418 4432])
+                    ("article" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4433 4450])
+                    ("verb" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4451 4465])
+                    ("preposition" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4466 4487]))                  
+                :type "void")
+                nil [4403 5748])
+            ("tokenizeTelNum" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5770 5779]))                  
+                :type "void")
+                nil [5750 6777])
+            ("reverse" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [6792 6801]))                  
+                :type "void")
+                nil [6779 7574])
+            ("countSubStr" function
+               (:arguments 
+                  ( ("haystack" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7593 7609])
+                    ("needle" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7610 7624]))                  
+                :type "void")
+                nil [7576 8000])
+            ("countChar" function
+               (:arguments 
+                  ( ("haystack" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8017 8033])
+                    ("needle" variable (:type "char") (reparse-symbol arg-sub-list) [8034 8046]))                  
+                :type "void")
+                nil [8002 8390])
+            ("countAlpha" function
+               (:arguments 
+                  ( ("ce" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8409 8419]))                  
+                :type "void")
+                nil [8393 9308])
+            ("countWords" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9326 9335]))                  
+                :type "void")
+                nil [9310 9729])
+            ("startsWithB" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9748 9757]))                  
+                :type "void")
+                nil [9731 10124])
+            ("endsWithEd" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10142 10151]))                  
+                :type "void")
+                nil [10126 10574]))          
+      :file "manual.c"
+      :pointmax 10575
+      :fsize 10574
+      :lastmodtime '(23213 14854 460680 319000)
+      :unmatched-syntax nil))
+  :file "!home!TU!tug54949!labs!lowLevel!labsz!lab7!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

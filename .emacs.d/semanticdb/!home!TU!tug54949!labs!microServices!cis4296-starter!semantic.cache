@@ -1,0 +1,45 @@
+;; Object cis4296-starter/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cis4296-starter/"
+  :tables
+  (list
+    (semanticdb-table "GeoCoder.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("java.io.BufferedReader" include nil nil [1 31])
+            ("java.io.IOException" include nil nil [32 59])
+            ("java.io.InputStreamReader" include nil nil [60 93])
+            ("java.net.URL" include nil nil [94 114])
+            ("java.net.URLConnection" include nil nil [115 145])
+            ("com.google.gson.JsonArray" include nil nil [147 180])
+            ("com.google.gson.JsonObject" include nil nil [181 215])
+            ("com.google.gson.JsonParser" include nil nil [216 250])
+            ("GeoCoder" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("token" variable
+                       (:typemodifiers ("private" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [277 406])
+                    ("getLatLong" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("search" variable (:type "String") (reparse-symbol formal_parameters) [487 500]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [455 932])
+                    ("getJSON" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("search" variable (:type "String") (reparse-symbol formal_parameters) [989 1002]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [959 1664]))                  
+                :type "class")
+                nil [252 1666]))          
+      :file "GeoCoder.java"
+      :pointmax 1666
+      :fsize 1665
+      :lastmodtime '(23640 39624 962993 45000)
+      :unmatched-syntax nil))
+  :file "!home!TU!tug54949!labs!microServices!cis4296-starter!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

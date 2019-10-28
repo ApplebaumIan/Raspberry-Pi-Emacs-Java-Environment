@@ -1,0 +1,43 @@
+;; Object josephus/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "josephus/"
+  :tables (list 
+   (semanticdb-table "CircularLinkedList.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.util.Iterator" include nil nil [32 58]))          
+    :file "CircularLinkedList.java"
+    :pointmax 3757
+    :fsize 3925
+    :lastmodtime '(23175 10885 905570 608000)
+    :unmatched-syntax '((BRACE_BLOCK 340 . 3753) (GT 338 . 339) (IDENTIFIER 337 . 338) (LT 336 . 337) (IDENTIFIER 328 . 336) (IMPLEMENTS 317 . 327) (GT 315 . 316) (IDENTIFIER 314 . 315) (PUBLIC 282 . 288) (LT 313 . 314) (BRACE_BLOCK 357 . 3770) (GT 355 . 356) (IDENTIFIER 354 . 355) (LT 353 . 354) (IDENTIFIER 345 . 353) (IMPLEMENTS 334 . 344) (GT 332 . 333) (IDENTIFIER 331 . 332) (PUBLIC 299 . 305) (LT 330 . 331))
+    )
+   (semanticdb-table "josephous.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.util.Iterator" include nil nil [2 28])
+            ("josephous" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [86 99]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [62 425]))                  
+                :type "class")
+                nil [29 432]))          
+    :file "josephous.java"
+    :pointmax 433
+    :fsize 432
+    :lastmodtime '(23175 10914 340225 121000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!labs!lab4!josephus!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

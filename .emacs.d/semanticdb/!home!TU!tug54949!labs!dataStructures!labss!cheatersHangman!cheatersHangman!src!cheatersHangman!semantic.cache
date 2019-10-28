@@ -1,0 +1,41 @@
+;; Object cheatersHangman/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cheatersHangman/"
+  :tables (list 
+   (semanticdb-table "Hangman.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("cheatershangman" package nil nil [3 27])
+            ("java.io.File" include nil nil [28 48])
+            ("java.util.*" include nil nil [49 68])
+            ("java.lang.*" include nil nil [69 88])
+            ("Hangman" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("readFile" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("filename" variable (:type "String") (reparse-symbol formal_parameters) [253 268]))                          )
+                        (reparse-symbol class_member_declaration) [244 1269])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1321 1334]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1297 2709]))                  
+                :type "class")
+                nil [90 2716]))          
+    :file "Hangman.java"
+    :pointmax 2715
+    :fsize 2718
+    :lastmodtime '(23246 14305 37409 330000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!labss!cheatersHangman!cheatersHangman!src!cheatersHangman!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

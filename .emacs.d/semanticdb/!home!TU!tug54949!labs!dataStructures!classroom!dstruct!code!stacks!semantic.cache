@@ -1,0 +1,18 @@
+;; Object stacks/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "stacks/"
+  :tables (list 
+   (semanticdb-table "ExpressionChecker.java"
+    :major-mode 'jdee-mode
+    :tags nil
+    :file "ExpressionChecker.java"
+    :pointmax 1
+    :fsize 889
+    :lastmodtime '(23181 39665 672848 278000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!classroom!dstruct!code!stacks!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

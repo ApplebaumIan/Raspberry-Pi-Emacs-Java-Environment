@@ -1,0 +1,58 @@
+;; Object labss/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "labss/"
+  :tables (list 
+   (semanticdb-table "Chess.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.util.*" include nil nil [1 20])
+            ("java.lang.*" include nil nil [21 40])
+            ("java.time.*" include nil nil [41 60])
+            ("Chess" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("queens" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("row" variable (:type "int") (reparse-symbol formal_parameters) [108 115])
+                            ("board" variable
+                               (:dereference 2
+                                :type "int")
+                                (reparse-symbol formal_parameters) [117 130])
+                            ("N" variable (:type "int") (reparse-symbol formal_parameters) [132 137]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [86 658])
+                    ("isValid" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("board" variable
+                               (:dereference 2
+                                :type "int")
+                                (reparse-symbol formal_parameters) [687 700])
+                            ("row" variable (:type "int") (reparse-symbol formal_parameters) [702 709])
+                            ("position" variable (:type "int") (reparse-symbol formal_parameters) [711 723])
+                            ("N" variable (:type "int") (reparse-symbol formal_parameters) [725 730]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [664 1440])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1469 1482]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1445 1915]))                  
+                :type "class")
+                nil [61 1931]))          
+    :file "Chess.java"
+    :pointmax 1932
+    :fsize 1931
+    :lastmodtime '(23416 47732 926127 902000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!labss!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

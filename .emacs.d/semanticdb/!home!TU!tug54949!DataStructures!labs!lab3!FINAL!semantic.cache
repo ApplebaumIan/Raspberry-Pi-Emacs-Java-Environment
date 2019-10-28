@@ -1,0 +1,74 @@
+;; Object FINAL/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "FINAL/"
+  :tables (list 
+   (semanticdb-table "ListHW.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.*" include nil nil [1 20])
+            ("java.lang.*" include nil nil [21 40])
+            ("ListHW" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("unique" function
+                       (:arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [182 186]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [159 370])
+                    ("AllMultiples" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [580 584])
+                            ("item" variable (:type "int") (reparse-symbol formal_parameters) [586 594]))                          )
+                        (reparse-symbol class_member_declaration) [553 996])
+                    ("allStringsOfSize" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [1193 1197])
+                            ("len" variable (:type "int") (reparse-symbol formal_parameters) [1199 1206]))                          )
+                        (reparse-symbol class_member_declaration) [1163 1607])
+                    ("isPermutation" function
+                       (:arguments 
+                          ( ("" variable (:type "list1") (reparse-symbol formal_parameters) [1799 1804])
+                            ("" variable (:type "list2") (reparse-symbol formal_parameters) [1814 1819]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1769 2628])
+                    ("stringToListOfWords" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("S" variable (:type "String") (reparse-symbol formal_parameters) [2826 2834]))                          )
+                        (reparse-symbol class_member_declaration) [2806 3165])
+                    ("removeAllInstances" function
+                       (:arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [3374 3378])
+                            ("item" variable (:type "E") (reparse-symbol formal_parameters) [3380 3386]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3342 3497])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [3661 3674]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3637 5570])
+                    ("pretty" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol formal_parameters) [5746 5751]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5720 5820]))                  
+                :type "class")
+                nil [41 6825]))          
+    :file "ListHW.java"
+    :pointmax 6826
+    :fsize 6825
+    :lastmodtime '(23163 49566 802406 197000)
+    :unmatched-syntax '((GT 3372 . 3373) (IDENTIFIER 3366 . 3370) (LT 3370 . 3371) (GT 3340 . 3341) (PUBLIC 3324 . 3330) (LT 3338 . 3339) (GT 2804 . 2805) (PUBLIC 2779 . 2785) (LT 2797 . 2798) (GT 1812 . 1813) (IDENTIFIER 1806 . 1810) (LT 1810 . 1811) (GT 1797 . 1798) (IDENTIFIER 1791 . 1795) (LT 1795 . 1796) (GT 1767 . 1768) (PUBLIC 1751 . 1757) (LT 1765 . 1766) (GT 1191 . 1192) (IDENTIFIER 1180 . 1184) (LT 1184 . 1185) (GT 1161 . 1162) (PUBLIC 1136 . 1142) (LT 1154 . 1155) (GT 578 . 579) (IDENTIFIER 566 . 570) (LT 570 . 571) (GT 551 . 552) (PUBLIC 525 . 531) (LT 543 . 544) (GT 180 . 181) (IDENTIFIER 174 . 178) (LT 178 . 179) (GT 157 . 158) (PUBLIC 141 . 147) (LT 155 . 156))
+    )
+   )
+  :file "!home!TU!tug54949!DataStructures!labs!lab3!FINAL!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,19 @@
+;; Object labs/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "labs/"
+  :tables (list 
+   (semanticdb-table "Java source code.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.util.Iterator" include nil nil [32 58]))          
+    :file "Java source code.java"
+    :pointmax 8851
+    :fsize 8848
+    :lastmodtime '(23175 24378 599479 613000)
+    :unmatched-syntax '((BRACE_BLOCK 110 . 8850) (GT 109 . 110) (IDENTIFIER 108 . 109) (LT 107 . 108) (IDENTIFIER 99 . 107) (IMPLEMENTS 88 . 98) (GT 86 . 87) (IDENTIFIER 85 . 86) (PUBLIC 61 . 67) (LT 84 . 85) (BRACE_BLOCK 108 . 8848) (GT 107 . 108) (IDENTIFIER 106 . 107) (LT 105 . 106) (IDENTIFIER 97 . 105) (IMPLEMENTS 86 . 96) (GT 84 . 85) (IDENTIFIER 83 . 84) (PUBLIC 59 . 65) (LT 82 . 83))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!labs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,205 @@
+;; Object NetworkSpellChecker/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "NetworkSpellChecker/"
+  :tables
+  (list
+    (semanticdb-table "server.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("pthread.h" include (:system-flag t) nil [60 80])
+            ("sys/socket.h" include (:system-flag t) nil [81 104])
+            ("stdlib.h" include (:system-flag t) nil [105 124])
+            ("netinet/in.h" include (:system-flag t) nil [125 148])
+            ("unistd.h" include (:system-flag t) nil [149 168])
+            ("log_queue.h" include nil nil [169 191])
+            ("socket_queue.h" include nil nil [192 217])
+            ("DEFAULT_PORT" variable (:constant-flag t) nil [227 239])
+            ("DEFAULT_FILE_NAME" variable (:constant-flag t) nil [253 270])
+            ("NUM_WORDS_IN_DICTIONARY" variable (:constant-flag t) nil [296 319])
+            ("NUM_WORKER_THREADS" variable (:constant-flag t) nil [394 412])
+            ("SOCKET_CAPACITY" variable (:constant-flag t) nil [423 438])
+            ("LOG_CAPACITY" variable (:constant-flag t) nil [449 461])
+            ("port" variable (:type "int") nil [465 474])
+            ("file_name" variable
+               (:pointer 1
+                :type "char")
+                nil [489 505])
+            ("array_of_words" variable
+               (:pointer 1
+                :dereference 1
+                :type "char")
+                nil [531 577])
+            ("socket_not_empty" variable (:type ("pthread_cond_t" type (:type "class") nil nil)) nil [626 704])
+            ("socket_not_full" variable (:type ("pthread_cond_t" type (:type "class") nil nil)) nil [626 704])
+            ("log_not_empty" variable (:type ("pthread_cond_t" type (:type "class") nil nil)) nil [626 704])
+            ("log_not_full" variable (:type ("pthread_cond_t" type (:type "class") nil nil)) nil [626 704])
+            ("socket_queue_lock" variable (:type ("pthread_mutex_t" type (:type "class") nil nil)) nil [734 768])
+            ("log_queue_lock" variable (:type ("pthread_mutex_t" type (:type "class") nil nil)) nil [802 833])
+            ("thread_pool" variable
+               (:dereference 1
+                :type ("pthread_t" type (:type "class") nil nil))
+                nil [865 907])
+            ("socket_queue" variable
+               (:pointer 1
+                :type ("socket_queue" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [940 974])
+            ("log_queue" variable
+               (:pointer 1
+                :type ("log_queue" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1008 1036])
+            ("str_is_int" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1072 1082]))                  
+                :type "int")
+                nil [1057 1083])
+            ("is_int" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [1141 1148]))                  
+                :type "int")
+                nil [1130 1149])
+            ("initialize_port_and_filename" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1229 1238])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1239 1252]))                  
+                :type "void")
+                nil [1195 1253])
+            ("read_from_dictionary_file" function
+               (:prototype-flag t
+                :type "void")
+                nil [1254 1287])
+            ("binary_search" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("low" variable (:type "int") (reparse-symbol arg-sub-list) [1306 1314])
+                    ("high" variable (:type "int") (reparse-symbol arg-sub-list) [1315 1324])
+                    ("array" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1325 1339])
+                    ("to_find" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1340 1354]))                  
+                :type "int")
+                nil [1288 1355])
+            ("main_thread" function
+               (:prototype-flag t
+                :pointer 1
+                :type "void")
+                nil [1356 1376])
+            ("log_thread" function
+               (:prototype-flag t
+                :pointer 1
+                :type "void")
+                nil [1432 1451])
+            ("worker_thread" function
+               (:prototype-flag t
+                :pointer 1
+                :type "void")
+                nil [1498 1520])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1582 1591])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1592 1605]))                  
+                :type "int")
+                nil [1573 2123])
+            ("worker_thread" function
+               (:pointer 1
+                :type "void")
+                nil [2125 4545])
+            ("log_thread" function
+               (:pointer 1
+                :type "void")
+                nil [4547 5418])
+            ("main_thread" function
+               (:pointer 1
+                :type "void")
+                nil [5419 8286])
+            ("read_from_dictionary_file" function (:type "void") nil [8288 8793])
+            ("initialize_port_and_filename" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [8829 8838])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8839 8852]))                  
+                :type "void")
+                nil [8795 9305])
+            ("str_is_int" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9322 9332]))                  
+                :type "int")
+                nil [9307 9562])
+            ("is_int" function
+               (:arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [9575 9582]))                  
+                :type "int")
+                nil [9564 9694])
+            ("binary_search" function
+               (:arguments 
+                  ( ("low" variable (:type "int") (reparse-symbol arg-sub-list) [9715 9723])
+                    ("high" variable (:type "int") (reparse-symbol arg-sub-list) [9724 9733])
+                    ("array" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9734 9748])
+                    ("to_find" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9749 9763]))                  
+                :type "int")
+                nil [9697 10181]))          
+      :file "server.c"
+      :pointmax 10182
+      :fsize 10181
+      :lastmodtime '(23638 1928 890137 691000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("DEFAULT_PORT" . ((number "8080" 241 . 245)))
+          ("DEFAULT_FILE_NAME" . ((string "\"dictionary.txt\"" 272 . 288)))
+          ("NUM_WORKER_THREADS" . ((number "2" 414 . 415)))
+          ("NUM_WORDS_IN_DICTIONARY" . ((number "99171" 321 . 326)))
+          ("SOCKET_CAPACITY" . ((number "3" 440 . 441)))
+          ("LOG_CAPACITY" . ((number "3" 463 . 464)))
+          )
+)
+    (semanticdb-table "log_queue.h"
+      :file "log_queue.h"
+      :fsize 603
+      :lastmodtime '(23638 1928 886137 726000))
+    (semanticdb-table "socket_queue.h"
+      :file "socket_queue.h"
+      :fsize 527
+      :lastmodtime '(23638 1928 894137 656000)))
+  :file "!home!TU!tug54949!labs!MANCINI!CIS3207-Operating-Systems!NetworkSpellChecker!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

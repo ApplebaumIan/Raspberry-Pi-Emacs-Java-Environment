@@ -1,0 +1,14 @@
+;; Object CIS3207/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "CIS3207/"
+  :tables
+  (list
+    (semanticdb-table "LinkedList.cpp"
+      :major-mode 'c++-mode
+      :tags nil
+      :file "LinkedList.cpp"
+      :pointmax 10
+      :unmatched-syntax '((symbol 2 . 9) (punctuation 1 . 2))))
+  :file "!home!TU!tug54949!labs!CIS3207!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

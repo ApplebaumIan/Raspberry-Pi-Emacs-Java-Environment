@@ -1,0 +1,105 @@
+;; Object lab4/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lab4/"
+  :tables
+  (list
+    (semanticdb-table "ArraysofPointer.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function
+               (:prototype-flag t
+                :type "void")
+                nil [1896 1908])
+            ("main" function (:type "void") nil [1957 1977]))          
+      :file "ArraysofPointer.c"
+      :pointmax 1998
+      :fsize 2021
+      :lastmodtime '(23181 31257 986436 724000)
+      :unmatched-syntax nil)
+    (semanticdb-table "ArraysofPointer.c~"
+      :major-mode 'c-mode
+      :tags 
+        '( ("main" function
+               (:prototype-flag t
+                :type "void")
+                nil [1857 1869])
+            ("main" function (:type "void") nil [1918 1938]))          
+      :file "ArraysofPointer.c~"
+      :pointmax 1959
+      :fsize 1982
+      :lastmodtime '(23181 30980 602754 751000)
+      :unmatched-syntax nil)
+    (semanticdb-table "arrays.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("math.h" include (:system-flag t) nil [40 57])
+            ("time.h" include (:system-flag t) nil [58 75])
+            ("SIZE" variable (:constant-flag t) nil [84 88])
+            ("fillArray" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("low" variable (:type "int") (reparse-symbol arg-sub-list) [121 129])
+                    ("high" variable (:type "int") (reparse-symbol arg-sub-list) [130 139]))                  
+                :type "void")
+                nil [106 140])
+            ("findWithRange" function
+               (:prototype-flag t
+                :type "void")
+                nil [141 162])
+            ("reverseArray" function
+               (:prototype-flag t
+                :type "void")
+                nil [163 183])
+            ("reverseRangeArray" function
+               (:prototype-flag t
+                :type "void")
+                nil [184 209])
+            ("findSequence" function
+               (:prototype-flag t
+                :type "void")
+                nil [210 230])
+            ("low" variable (:type "int") nil [256 264])
+            ("high" variable (:type "int") nil [265 274])
+            ("low2" variable (:type "int") nil [275 284])
+            ("high2" variable (:type "int") nil [285 295])
+            ("lowIndex" variable (:type "int") nil [296 309])
+            ("highIndex" variable (:type "int") nil [310 324])
+            ("arrayz" variable
+               (:dereference 1
+                :type "int")
+                nil [325 342])
+            ("revArrayz" variable
+               (:dereference 1
+                :type "int")
+                nil [343 363])
+            ("revIndexArrayz" variable
+               (:dereference 1
+                :type "int")
+                nil [364 389])
+            ("main" function (:type "int") nil [391 594])
+            ("fillArray" function
+               (:arguments 
+                  ( ("low" variable (:type "int") (reparse-symbol arg-sub-list) [611 619])
+                    ("high" variable (:type "int") (reparse-symbol arg-sub-list) [620 629]))                  
+                :type "void")
+                nil [596 826])
+            ("findWithRange" function (:type "void") nil [828 1269])
+            ("reverseArray" function (:type "void") nil [1272 1752])
+            ("reverseRangeArray" function (:type "void") nil [1778 3090])
+            ("findSequence" function (:type "void") nil [3115 3779]))          
+      :file "arrays.c"
+      :pointmax 3780
+      :fsize 3779
+      :lastmodtime '(23180 56907 404370 561000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SIZE" . ((number "10" 89 . 91)))
+          )
+))
+  :file "!home!TU!tug54949!labs!lowLevel!labsz!lab4!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

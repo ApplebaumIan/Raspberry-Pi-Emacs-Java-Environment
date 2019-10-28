@@ -1,0 +1,103 @@
+;; Object treelab/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "treelab/"
+  :tables (list 
+   (semanticdb-table "IndexTree.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.io.*" include nil nil [23 40])
+            ("java.util.*" include nil nil [41 60])
+            ("IndexTree" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("root" variable
+                       (:typemodifiers ("public")
+                        :type "IndexNode")
+                        (reparse-symbol class_member_declaration) [92 114])
+                    ("IndexTree" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [148 220])
+                    ("add" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("word" variable (:type "String") (reparse-symbol formal_parameters) [242 253])
+                            ("lineNumber" variable (:type "int") (reparse-symbol formal_parameters) [255 269]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [226 332])
+                    ("add" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("root" variable (:type "IndexNode") (reparse-symbol formal_parameters) [467 481])
+                            ("word" variable (:type "String") (reparse-symbol formal_parameters) [483 494])
+                            ("lineNumber" variable (:type "int") (reparse-symbol formal_parameters) [496 510]))                          
+                        :type "IndexNode")
+                        (reparse-symbol class_member_declaration) [446 1533])
+                    ("contains" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("word" variable (:type "String") (reparse-symbol formal_parameters) [1567 1578]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1543 1628])
+                    ("contains" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("word" variable (:type "String") (reparse-symbol formal_parameters) [1658 1669])
+                            ("root" variable (:type "IndexNode") (reparse-symbol formal_parameters) [1671 1685]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1634 2252])
+                    ("printIndex" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("root" variable (:type "IndexNode") (reparse-symbol formal_parameters) [2534 2548]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2509 2955])
+                    ("printIndex" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2961 3037])
+                    ("delete" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("word" variable (:type "String") (reparse-symbol formal_parameters) [3060 3071]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3041 3125])
+                    ("delete" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("root" variable (:type "IndexNode") (reparse-symbol formal_parameters) [3154 3168])
+                            ("word" variable (:type "String") (reparse-symbol formal_parameters) [3170 3181]))                          
+                        :type "IndexNode")
+                        (reparse-symbol class_member_declaration) [3130 6979])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [7009 7022]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6985 7480])
+                    ("readFile" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("filename" variable (:type "String") (reparse-symbol formal_parameters) [7621 7636]))                          )
+                        (reparse-symbol class_member_declaration) [7612 8669])
+                    ("readLine" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("filename" variable (:type "String") (reparse-symbol formal_parameters) [8813 8828]))                          )
+                        (reparse-symbol class_member_declaration) [8804 9733]))                  
+                :type "class")
+                nil [62 9735]))          
+    :file "IndexTree.java"
+    :pointmax 9736
+    :fsize 9739
+    :lastmodtime '(23228 61515 134903 661000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!labss!treelab!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
