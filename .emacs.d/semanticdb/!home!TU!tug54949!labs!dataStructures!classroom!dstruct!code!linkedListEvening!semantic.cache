@@ -1,0 +1,29 @@
+;; Object linkedListEvening/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "linkedListEvening/"
+  :tables (list 
+   (semanticdb-table "DoubleLinkedList.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("linkedListEvening" package nil nil [1 27]))          
+    :file "DoubleLinkedList.java"
+    :pointmax 2595
+    :fsize 2594
+    :lastmodtime '(23181 39665 643848 646000)
+    :unmatched-syntax '((BRACE_BLOCK 63 . 2594) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 30 . 36) (LT 59 . 60) (BRACE_BLOCK 63 . 2594) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 30 . 36) (LT 59 . 60))
+    )
+   (semanticdb-table "LinkedListEvening.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("linkedListEvening" package nil nil [1 27]))          
+    :file "LinkedListEvening.java"
+    :pointmax 2084
+    :fsize 2083
+    :lastmodtime '(23181 39665 645848 621000)
+    :unmatched-syntax '((BRACE_BLOCK 63 . 2083) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 29 . 35) (LT 59 . 60) (BRACE_BLOCK 63 . 2083) (GT 61 . 62) (IDENTIFIER 60 . 61) (PUBLIC 29 . 35) (LT 59 . 60))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!classroom!dstruct!code!linkedListEvening!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

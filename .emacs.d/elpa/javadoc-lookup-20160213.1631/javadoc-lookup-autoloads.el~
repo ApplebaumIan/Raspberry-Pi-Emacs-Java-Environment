@@ -1,0 +1,13 @@
+;;; javadoc-lookup-autoloads.el --- automatically extracted autoloads
+;;
+;;; Code:
+
+
+(provide 'javadoc-lookup-autoloads)
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; no-update-autoloads: t
+;; coding: utf-8
+;; End:
+;;; javadoc-lookup-autoloads.el ends here

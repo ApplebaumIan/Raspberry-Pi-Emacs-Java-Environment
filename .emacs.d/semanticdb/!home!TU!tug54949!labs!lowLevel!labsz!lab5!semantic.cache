@@ -1,0 +1,94 @@
+;; Object lab5/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lab5/"
+  :tables
+  (list
+    (semanticdb-table "ArraysofPointers.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("STUDENTS_ARGUMENT" variable (:type "int") nil [2788 2810])
+            ("EXXAMS_ARGUMENT" variable (:type "int") nil [2811 2831])
+            ("printArray" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2887 2933]))                  
+                :type "void")
+                nil [2871 2934])
+            ("maximum" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2949 2995]))                  
+                :type "void")
+                nil [2936 2996])
+            ("minimum" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [3011 3057]))                  
+                :type "void")
+                nil [2998 3058])
+            ("average" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [3073 3119]))                  
+                :type "void")
+                nil [3060 3120])
+            ("Quit" function
+               (:prototype-flag t
+                :type "void")
+                nil [3122 3134])
+            ("main" function (:type "int") nil [3323 4620])
+            ("minimum" function
+               (:arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [4704 4750]))                  
+                :type "void")
+                nil [4691 4988])
+            ("maximum" function
+               (:arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5033 5079]))                  
+                :type "void")
+                nil [5020 5318])
+            ("average" function
+               (:arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5362 5408]))                  
+                :type "void")
+                nil [5349 5699])
+            ("printArray" function
+               (:arguments 
+                  ( ("array" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5759 5805]))                  
+                :type "void")
+                nil [5743 6140])
+            ("Quit" function (:type "void") nil [6186 6211]))          
+      :file "ArraysofPointers.c"
+      :pointmax 6253
+      :fsize 6280
+      :lastmodtime '(23190 37185 305482 377000)
+      :unmatched-syntax '((punctuation 3277 . 3278) (semantic-list 3230 . 3277) (punctuation 3228 . 3229) (semantic-list 3186 . 3227) (semantic-list 3167 . 3186) (VOID 3162 . 3166))))
+  :file "!home!TU!tug54949!labs!lowLevel!labsz!lab5!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

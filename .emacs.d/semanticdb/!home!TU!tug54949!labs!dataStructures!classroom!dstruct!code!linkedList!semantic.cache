@@ -1,0 +1,29 @@
+;; Object linkedList/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "linkedList/"
+  :tables (list 
+   (semanticdb-table "DoubleLinkedList.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("linkedList" package nil nil [1 20]))          
+    :file "DoubleLinkedList.java"
+    :pointmax 2652
+    :fsize 2651
+    :lastmodtime '(23181 39665 636848 735000)
+    :unmatched-syntax '((BRACE_BLOCK 56 . 2651) (GT 54 . 55) (IDENTIFIER 53 . 54) (PUBLIC 23 . 29) (LT 52 . 53) (BRACE_BLOCK 56 . 2651) (GT 54 . 55) (IDENTIFIER 53 . 54) (PUBLIC 23 . 29) (LT 52 . 53))
+    )
+   (semanticdb-table "LinkedList.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.util.Random" include nil nil [1 25]))          
+    :file "LinkedList.java"
+    :pointmax 2556
+    :fsize 2555
+    :lastmodtime '(23182 18722 395044 903000)
+    :unmatched-syntax '((BRACE_BLOCK 54 . 2548) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2524) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2522) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2521) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2521) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2520) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2518) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2522) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2521) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2522) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2519) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2517) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2516) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2514) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2512) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2510) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2509) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2503) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2502) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2495) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2489) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2488) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2486) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2485) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2486) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2488) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2487) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2485) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2482) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2483) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2485) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2482) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51) (BRACE_BLOCK 54 . 2483) (GT 52 . 53) (IDENTIFIER 51 . 52) (PUBLIC 27 . 33) (LT 50 . 51))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!classroom!dstruct!code!linkedList!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

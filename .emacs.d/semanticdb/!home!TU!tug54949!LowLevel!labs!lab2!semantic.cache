@@ -1,0 +1,54 @@
+;; Object lab2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lab2/"
+  :tables (list 
+   (semanticdb-table "Switch.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [20 1522]))          
+    :file "Switch.c"
+    :pointmax 1565
+    :fsize 1522
+    :lastmodtime '(23154 40276 994417 938000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Paycheck.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [40 1809]))          
+    :file "Paycheck.c"
+    :pointmax 1841
+    :fsize 1840
+    :lastmodtime '(23155 43007 288219 147000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "revenue.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [40 626])
+            ("scanf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("quant" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [410 416]))                  
+                :type "int")
+                nil [398 417])
+            ("puts" function
+               (:prototype-flag t
+                :type "int")
+                nil [577 622]))          
+    :file "revenue.c"
+    :pointmax 626
+    :fsize 629
+    :lastmodtime '(23157 2012 783932 572000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!LowLevel!labs!lab2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

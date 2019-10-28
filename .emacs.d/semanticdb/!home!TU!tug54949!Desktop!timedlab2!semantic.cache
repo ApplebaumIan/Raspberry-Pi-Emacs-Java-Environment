@@ -1,0 +1,18 @@
+;; Object timedlab2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "timedlab2/"
+  :tables (list 
+   (semanticdb-table "BinaryTree.java"
+    :major-mode 'jdee-mode
+    :tags nil
+    :file "BinaryTree.java"
+    :pointmax 6788
+    :fsize 6787
+    :lastmodtime '(23229 28558 461075 115000)
+    :unmatched-syntax '((BRACE_BLOCK 162 . 6787) (RSHIFT 159 . 161) (IDENTIFIER 158 . 159) (LT 157 . 158) (IDENTIFIER 147 . 157) (EXTENDS 139 . 146) (IDENTIFIER 137 . 138) (LT 136 . 137))
+    )
+   )
+  :file "!home!TU!tug54949!Desktop!timedlab2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

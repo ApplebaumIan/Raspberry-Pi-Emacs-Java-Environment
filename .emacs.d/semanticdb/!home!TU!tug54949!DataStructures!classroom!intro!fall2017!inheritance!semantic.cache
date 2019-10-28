@@ -1,0 +1,171 @@
+;; Object inheritance/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "inheritance/"
+  :tables (list 
+   (semanticdb-table "Animal.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("inheritance" package nil nil [1 21])
+            ("Animal" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("name" variable
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [47 69])
+                    ("mass" variable
+                       (:typemodifiers ("protected")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [71 93])
+                    ("Animal" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [97 140])
+                    ("Animal" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [160 171])
+                            ("mass" variable (:type "double") (reparse-symbol formal_parameters) [173 184]))                          )
+                        (reparse-symbol class_member_declaration) [146 269])
+                    ("printAnimal" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("a" variable (:type "Animal") (reparse-symbol formal_parameters) [304 312]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [273 364])
+                    ("getName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [370 418])
+                    ("getMass" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [422 470])
+                    ("move" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [476 556])
+                    ("eat" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("thing" variable (:type "String") (reparse-symbol formal_parameters) [576 588]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [560 666])
+                    ("equals" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("other" variable (:type "Object") (reparse-symbol formal_parameters) [695 707]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [673 965])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1126 1188])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1225 1238]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1201 1299]))                  
+                :type "class")
+                nil [23 1302]))          
+    :file "Animal.java"
+    :pointmax 1303
+    :fsize 1302
+    :lastmodtime '(23135 37135 986005 436000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Lizard.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("inheritance" package nil nil [1 21])
+            ("Lizard" type
+               (:typemodifiers ("public")
+                :superclasses "Reptile"
+                :members 
+                  ( ("Lizard" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [63 110])
+                    ("move" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [114 185])
+                    ("eat" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("thing" variable (:type "String") (reparse-symbol formal_parameters) [203 215]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [187 295])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [325 338]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [301 997]))                  
+                :type "class")
+                nil [23 1000]))          
+    :file "Lizard.java"
+    :pointmax 1001
+    :fsize 1000
+    :lastmodtime '(23135 35565 730127 158000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Reptile.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("inheritance" package nil nil [1 21])
+            ("Reptile" type
+               (:typemodifiers ("public")
+                :superclasses "Animal"
+                :members 
+                  ( ("Reptile" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [66 160])
+                    ("Reptile" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [179 190])
+                            ("mass" variable (:type "double") (reparse-symbol formal_parameters) [192 203]))                          )
+                        (reparse-symbol class_member_declaration) [164 249])
+                    ("eat" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("target" variable (:type "String") (reparse-symbol formal_parameters) [372 385]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [356 457])
+                    ("warm" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [461 548])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [576 589]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [552 837]))                  
+                :type "class")
+                nil [23 839]))          
+    :file "Reptile.java"
+    :pointmax 840
+    :fsize 839
+    :lastmodtime '(23135 35565 732127 131000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!DataStructures!classroom!intro!fall2017!inheritance!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

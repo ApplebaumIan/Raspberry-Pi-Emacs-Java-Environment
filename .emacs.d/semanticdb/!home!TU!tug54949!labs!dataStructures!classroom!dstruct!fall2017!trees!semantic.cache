@@ -1,0 +1,27 @@
+;; Object trees/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "trees/"
+  :tables (list 
+   (semanticdb-table "BinaryTree.java"
+    :major-mode 'jdee-mode
+    :tags nil
+    :file "BinaryTree.java"
+    :pointmax 3524
+    :fsize 3523
+    :lastmodtime '(23228 65203 924231 102000)
+    :unmatched-syntax '((BRACE_BLOCK 68 . 3513) (RSHIFT 65 . 67) (IDENTIFIER 64 . 65) (LT 63 . 64) (IDENTIFIER 53 . 63) (EXTENDS 45 . 52) (IDENTIFIER 43 . 44) (LT 42 . 43) (RBRACE 3313 . 3314) (BRACE_BLOCK 3011 . 3311) (PAREN_BLOCK 2995 . 3010) (IDENTIFIER 2991 . 2995) (VOID 2986 . 2990) (BRACE_BLOCK 2737 . 2959) (PAREN_BLOCK 2722 . 2736) (IDENTIFIER 2714 . 2722) (IDENTIFIER 2707 . 2713) (BRACE_BLOCK 2406 . 2692) (PAREN_BLOCK 2362 . 2405) (IDENTIFIER 2346 . 2362) (VOID 2341 . 2345) (BRACE_BLOCK 2226 . 2329) (PAREN_BLOCK 2223 . 2225) (IDENTIFIER 2215 . 2223) (IDENTIFIER 2208 . 2214) (BRACE_BLOCK 1260 . 2197) (PAREN_BLOCK 1237 . 1259) (IDENTIFIER 1231 . 1237) (GT 1229 . 1230) (IDENTIFIER 1228 . 1229) (LT 1227 . 1228) (IDENTIFIER 1223 . 1227) (BRACE_BLOCK 1169 . 1212) (PAREN_BLOCK 1160 . 1168) (IDENTIFIER 1154 . 1160) (VOID 1149 . 1153) (BRACE_BLOCK 733 . 1068) (PAREN_BLOCK 710 . 732) (IDENTIFIER 707 . 710) (GT 705 . 706) (IDENTIFIER 704 . 705) (LT 703 . 704) (IDENTIFIER 699 . 703) (BRACE_BLOCK 68 . 688) (RSHIFT 65 . 67) (IDENTIFIER 64 . 65) (LT 63 . 64) (IDENTIFIER 53 . 63) (EXTENDS 45 . 52) (IDENTIFIER 43 . 44) (LT 42 . 43) (BRACE_BLOCK 68 . 3513) (RSHIFT 65 . 67) (IDENTIFIER 64 . 65) (LT 63 . 64) (IDENTIFIER 53 . 63) (EXTENDS 45 . 52) (IDENTIFIER 43 . 44) (LT 42 . 43))
+    )
+   (semanticdb-table "Node.java"
+    :major-mode 'jdee-mode
+    :tags nil
+    :file "Node.java"
+    :pointmax 191
+    :fsize 190
+    :lastmodtime '(23224 6220 740998 601000)
+    :unmatched-syntax '((BRACE_BLOCK 40 . 190) (GT 38 . 39) (IDENTIFIER 37 . 38) (LT 36 . 37) (IDENTIFIER 192 . 197) (punctuation 191 . 192) (BRACE_BLOCK 40 . 190) (GT 38 . 39) (IDENTIFIER 37 . 38) (LT 36 . 37) (punctuation 191 . 192) (BRACE_BLOCK 40 . 190) (GT 38 . 39) (IDENTIFIER 37 . 38) (LT 36 . 37) (BRACE_BLOCK 40 . 190) (GT 38 . 39) (IDENTIFIER 37 . 38) (LT 36 . 37))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!classroom!dstruct!fall2017!trees!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

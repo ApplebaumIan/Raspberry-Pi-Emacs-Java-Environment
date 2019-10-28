@@ -1,0 +1,96 @@
+;; Object OldJava/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "OldJava/"
+  :tables (list 
+   (semanticdb-table "Accentenator.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.io.*" include nil nil [450 467])
+            ("java.net.*" include nil nil [468 486])
+            ("java.util.Scanner" include nil nil [487 512])
+            ("Accentenator" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("webcontents" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [743 878])
+                    ("isVowel" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("c" variable (:type "char") (reparse-symbol formal_parameters) [921 927]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [891 1424])
+                    ("getWebContents" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [1462 1472]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1426 2464])
+                    ("OriginalScript" function
+                       (:throws ("IOException")
+                        :typemodifiers ("public" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2465 3040])
+                    ("ScriptChange" function
+                       (:throws ("IOException")
+                        :typemodifiers ("public" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3041 6368])
+                    ("TestChange" function
+                       (:typemodifiers ("public" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6369 9412])
+                    ("saveDoc" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("contents" variable (:type "String") (reparse-symbol formal_parameters) [9637 9652])
+                            ("filename" variable (:type "String") (reparse-symbol formal_parameters) [9654 9669]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [9610 9986])
+                    ("main" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("argv" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [10058 10071]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10034 10761]))                  
+                :type "class")
+                nil [513 10763]))          
+    :file "Accentenator.java"
+    :pointmax 10949
+    :fsize 10948
+    :lastmodtime '(22761 35747 467437 694000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Arraz.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Arraz" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [54 67]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [30 214]))                  
+                :type "class")
+                nil [1 216]))          
+    :file "Arraz.java"
+    :pointmax 217
+    :fsize 216
+    :lastmodtime '(22757 31554 61293 818000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!OldJava!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

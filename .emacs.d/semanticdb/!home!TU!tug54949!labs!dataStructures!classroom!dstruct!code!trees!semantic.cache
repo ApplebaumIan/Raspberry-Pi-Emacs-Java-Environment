@@ -1,0 +1,18 @@
+;; Object trees/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "trees/"
+  :tables (list 
+   (semanticdb-table "BinaryTree.java"
+    :major-mode 'jdee-mode
+    :tags nil
+    :file "BinaryTree.java"
+    :pointmax 4848
+    :fsize 4847
+    :lastmodtime '(23206 48420 909590 725000)
+    :unmatched-syntax '((BRACE_BLOCK 68 . 4847) (RSHIFT 65 . 67) (IDENTIFIER 64 . 65) (LT 63 . 64) (IDENTIFIER 53 . 63) (EXTENDS 45 . 52) (IDENTIFIER 43 . 44) (LT 42 . 43) (BRACE_BLOCK 66 . 4845) (RSHIFT 63 . 65) (IDENTIFIER 62 . 63) (LT 61 . 62) (IDENTIFIER 51 . 61) (EXTENDS 43 . 50) (IDENTIFIER 41 . 42) (PUBLIC 17 . 23) (LT 40 . 41))
+    )
+   )
+  :file "!home!TU!tug54949!labs!dataStructures!classroom!dstruct!code!trees!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,64 @@
+;; Object practice/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "practice/"
+  :tables (list 
+   (semanticdb-table "setExample.java"
+    :major-mode 'jdee-mode
+    :tags 
+        '( ("java.util.HashSet" include nil nil [1 26])
+            ("java.util.Set" include nil nil [27 48])
+            ("setExample" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [104 117]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [80 383]))                  
+                :type "class")
+                nil [50 388]))          
+    :file "setExample.java"
+    :pointmax 341
+    :fsize 390
+    :lastmodtime '(23215 61835 616000 553000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "examthing.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("java.util.*" include nil nil [1 20])
+            ("java.lang.*" include nil nil [21 40])
+            ("examthing" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("count" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("word" variable (:type "String") (reparse-symbol formal_parameters) [118 129]))                          )
+                        (reparse-symbol class_member_declaration) [112 361])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [390 403]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [366 447]))                  
+                :type "class")
+                nil [41 449]))          
+    :file "examthing.java"
+    :pointmax 450
+    :fsize 449
+    :lastmodtime '(23237 27465 298182 680000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!labs!practice!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

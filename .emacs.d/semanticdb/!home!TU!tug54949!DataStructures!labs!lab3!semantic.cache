@@ -1,0 +1,74 @@
+;; Object lab3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lab3/"
+  :tables (list 
+   (semanticdb-table "ListHW.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.*" include nil nil [1 20])
+            ("java.lang.*" include nil nil [21 40])
+            ("ListHW" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("unique" function
+                       (:arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [182 186]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [159 377])
+                    ("AllMultiples" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [587 591])
+                            ("item" variable (:type "int") (reparse-symbol formal_parameters) [593 601]))                          )
+                        (reparse-symbol class_member_declaration) [560 1003])
+                    ("allStringsOfSize" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [1203 1207])
+                            ("len" variable (:type "int") (reparse-symbol formal_parameters) [1209 1216]))                          )
+                        (reparse-symbol class_member_declaration) [1173 1617])
+                    ("isPermutation" function
+                       (:arguments 
+                          ( ("" variable (:type "list1") (reparse-symbol formal_parameters) [1813 1818])
+                            ("" variable (:type "list2") (reparse-symbol formal_parameters) [1828 1833]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1783 2642])
+                    ("stringToListOfWords" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("S" variable (:type "String") (reparse-symbol formal_parameters) [2840 2848]))                          )
+                        (reparse-symbol class_member_declaration) [2820 3179])
+                    ("removeAllInstances" function
+                       (:arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [3388 3392])
+                            ("item" variable (:type "E") (reparse-symbol formal_parameters) [3394 3400]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3356 3511])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [3675 3688]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3651 5584])
+                    ("pretty" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol formal_parameters) [5760 5765]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5734 5834]))                  
+                :type "class")
+                nil [41 6839]))          
+    :file "ListHW.java"
+    :pointmax 6840
+    :fsize 6839
+    :lastmodtime '(23162 31667 620283 975000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!TU!tug54949!DataStructures!labs!lab3!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
