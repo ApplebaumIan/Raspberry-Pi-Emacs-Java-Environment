@@ -4,8 +4,8 @@ Emacs Java Package Setup JDE Before my Spring Semester at Temple University, I w
 
 # How to install:
 ```
-git clone https://github.com/ApplebaumIan/Raspberry-Pi-Emacs-Java-Environment.git`
 cd ~
+git clone https://github.com/ApplebaumIan/Raspberry-Pi-Emacs-Java-Environment.git`
 rm -rf .emacs.d
 ```
 if you have a .emacs file `rm .emacs`
